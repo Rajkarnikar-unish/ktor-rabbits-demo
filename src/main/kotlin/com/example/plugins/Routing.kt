@@ -11,7 +11,7 @@ fun Application.configureRouting() {
     routing {
         randomRabbit()
         // Static plugin. Try to access `/static/index.html`
-        static("/static") {
+        static {
             resources("static")
         }
     }
